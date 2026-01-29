@@ -1,4 +1,4 @@
-// FILE: Experiment-Engine-Dashboard-Tile.tsx
+// FILE: DemandGenFlow.tsx
 'use client';
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
@@ -39,7 +39,7 @@ ChartJS.register(
   Filler
 );
 
-export default function ExperimentEngineDashboardTile() {
+export default function DemandGenFlow() {
   // Enhanced hover configuration for metric cards
   const cardHoverConfig = {
     y: -4,

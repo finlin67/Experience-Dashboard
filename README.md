@@ -1,6 +1,6 @@
-# Experiment Engine Dashboard Tile
+# Demand Gen Flow
 
-A high-fidelity, futuristic performance dashboard tile designed for modern Next.js/React landing pages. This component features a cyberpunk aesthetic with glassmorphism effects, real-time animated metrics, and responsive scaling.
+A high-fidelity, futuristic performance dashboard tile designed for modern Next.js/React landing pages. This component features a cyberpunk aesthetic with glassmorphism effects, real-time animated metrics, and adaptive scaling.
 
 ## Features
 
@@ -27,19 +27,19 @@ npm install framer-motion lucide-react clsx tailwind-merge
 ## Installation
 
 1. **Copy the Component**:
-   Place the `Experiment-Engine-Dashboard-Tile.tsx` file into your project's components directory (e.g., `src/components/Experiment-Engine-Dashboard-Tile.tsx`).
+   Place the `DemandGenFlow.tsx` file into your project's components directory (e.g., `src/components/DemandGenFlow.tsx`).
 
 2. **Import and Use**:
    Import the component into your page or layout. It is designed to take up 100% of its parent container's width and height, centering itself within that space.
 
 ```tsx
-import ExperimentEngineDashboardTile from '@/components/Experiment-Engine-Dashboard-Tile';
+import DemandGenFlow from '@/components/DemandGenFlow';
 
 export default function Page() {
   return (
     <main className="w-full h-screen bg-black">
       {/* The tile handles its own internal centering and max-width constraints */}
-      <ExperimentEngineDashboardTile />
+      <DemandGenFlow />
     </main>
   );
 }

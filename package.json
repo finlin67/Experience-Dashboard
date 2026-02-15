@@ -13,8 +13,8 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "framer-motion": "11.0.24",
-    "chart.js": "4.4.2",
-    "react-chartjs-2": "5.2.0"
+    "chart.js": "^4.5.1",
+    "react-chartjs-2": "^5.3.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
